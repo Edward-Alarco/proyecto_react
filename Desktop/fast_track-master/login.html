@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- IONICONS -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <section class="login_spa">
+        <section class="cabecera">
+            <div class="contenedor">
+                <div class="row">
+                    <img src="images/logo-merck.png">
+                </div>
+            </div>
+        </section>
+
+        <div class="contenedor">
+            <div class="contenido-formulario active">
+                <img src="images/logo-fasttrack.png" alt="">
+                <h3>Bienvenido</h3>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Usuario">
+                    <input type="text" name="" id="" placeholder="Contrase&ntilde;a">
+                    <button type="submit">Ingresar</button>
+                </form>
+                <p>Olvide mi contrase&ntilde;a, <a href="#" id="nuevaClave">haz click</a><br>para recuperarla</p>
+                <p>¿Nuevo proveedor? <a href="#" id="nuevoProveedor">Registrarse aquí</a></p>
+            </div>
+            <div class="contenido-formulario-proveedor">
+                <a href="#" id="volverLogin"><i class="fas fa-chevron-left"></i> Volver al login</a>
+                <h3>Bienvenido,</h3>
+                <p>para poder acceder como proveedor autorizado<br>de Merck completa la siguiente información:</p>
+                <form action="">
+                    <h4>Datos de Contacto</h4>
+                    <div class="primera">
+                        <input type="text" name="" id="" placeholder="Nombre">
+                        <input type="text" name="" id="" placeholder="Apellidos">
+                        <input type="email" name="" id="" placeholder="Correo">
+                        <input type="tel" name="" id="" placeholder="Telefono">
+                    </div>
+                    <h4>Datos de la Empresa</h4>
+                    <div class="segunda">
+                        <input type="text" name="" id="" placeholder="Razón Social">
+                        <input type="text" name="" id="" placeholder="R.U.C">
+                        <input type="text" name="" id="" placeholder="Dirección Fiscal">
+                    </div>
+                    <div class="tercera">
+                        <div class="input-file">
+                            <input type="file" name="" id="">
+                            <label for="">*Carta de referencia comerciales</label>
+                            <i class="fas fa-paperclip"></i>
+                        </div>
+                        <div class="input-file">
+                            <input type="file" name="" id="">
+                            <label for="">*Carta de presentación</label>
+                            <i class="fas fa-paperclip"></i>
+                        </div>
+                        <div class="input-file">
+                            <input type="file" name="" id="">
+                            <label for="">*Copia de ficha RUC vigente</label>
+                            <i class="fas fa-paperclip"></i>
+                        </div>
+                        <div class="input-file">
+                            <input type="file" name="" id="">
+                            <label for="">*Reporte crediticio</label>
+                            <i class="fas fa-paperclip"></i>
+                        </div>
+                        <div class="input-file">
+                            <input type="file" name="" id="">
+                            <label for="">*Licencia de Funcionamiento</label>
+                            <i class="fas fa-paperclip"></i>
+                        </div>
+                    </div>
+                    <p class="filesize">(*Tamaño máximo de archivos 20mb)</p>
+                    <div class="cuarta">
+                        <select name="" id="">
+                            <option value="">Pais</option>
+                            <option value="">Perú</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">Categorias</option>
+                            <option value="">Uno</option>
+                        </select>
+                    </div>
+                    <a href="#">Enviar</a>
+                </form>
+            </div>
+        </div>
+        <div class="creditos-parte-baja">
+            <p id="creditosBajos">&copy; Merck 2019</p>
+        </div>
+        <div class="aviso-pass">
+            <p>Maestro Proveedores es una herramienta de Procurement</p>
+            <img src="images/logo-pass.jpg" alt="">
+        </div>
+    </section>  
+
+
+    <script src="js/login-proveedores.js"></script>
+</body>
+</html>
